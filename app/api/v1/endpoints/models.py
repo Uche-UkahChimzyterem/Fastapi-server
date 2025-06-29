@@ -1,6 +1,6 @@
 # app/api/v1/models.py
 from sqlalchemy import Column, Integer, String
-from .deps import Base
+from ..deps import Base
 
 class User(Base):
     __tablename__ = "users"

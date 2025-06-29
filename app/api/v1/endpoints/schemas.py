@@ -18,5 +18,5 @@ class User(BaseModel):
     email: EmailStr
     age: int
 
-    class Config:
-        orm_mode = True
+class Config:
+    from_attributes = True
