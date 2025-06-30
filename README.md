@@ -1,3 +1,22 @@
+Absolutely! Here's the standalone, **updated `README.md`** for your **CineCircle** FastAPI project:
+
+```markdown
+# 🎬 CineCircle
+
+**CineCircle** is a social web platform for movie lovers to discover, review, and discuss films.
+
+---
+
+## 🚀 Features
+
+- Browse a catalog of popular movies
+- Post and read movie reviews
+- Basic authentication system (in progress)
+- FastAPI-powered backend
+
+---
+
+````
 ```
 PROJECT STRUCTURE
 ```
@@ -49,3 +68,79 @@ requirements.txt
 README.md
 
 ```
+
+---
+
+## 🛠️ Getting Started
+
+### 1. Clone the Repository
+
+```bash
+git clone https://github.com/Uche-UkahChimzyterem/CineCircle.git
+cd CineCircle
+````
+
+### 2. Create & Activate a Virtual Environment
+
+```bash
+# Create
+python -m venv venv
+
+# Activate
+# On Windows
+venv\Scripts\activate
+
+# On macOS/Linux
+source venv/bin/activate
+```
+
+### 3. Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+### 4. Run the Development Server
+
+```bash
+uvicorn server.api.v1.main:app --reload
+```
+
+---
+
+## 📡 Example Endpoints
+
+| Endpoint      | Method | Description                 |
+| ------------- | ------ | --------------------------- |
+| `/reviews`    | GET    | Fetch static movie reviews  |
+| `/auth/login` | POST   | Login with test credentials |
+| `/test/ping`  | GET    | Ping the API (health check) |
+
+> All endpoints currently return static data for testing purposes.
+
+---
+
+## 📘 Tech Stack
+
+* **Language:** Python 3.x
+* **Framework:** FastAPI
+* **Package Management:** `pip`, `venv`
+* **Server:** Uvicorn
+* **Version Control:** Git + GitHub
+
+---
+
+## ✅ Contribution Guidelines
+
+* Use `venv` for environment isolation
+* Follow [Conventional Commits](https://www.conventionalcommits.org/)
+* Keep commits small and modular
+
+---
+
+## 📫 Connect
+
+Built with 💙 by [@chimzyterem](https://www.linkedin.com/in/chimzyterem-uche-ukah-138857276)
+
+```
+
